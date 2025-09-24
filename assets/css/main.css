@@ -1727,3 +1727,45 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+/* Add at the end of your main.css file */
+
+.floating-contact {
+  position: fixed;
+  right: 24px;
+  bottom: 90px; /* Increased from 24px to 90px to avoid overlap with scroll-to-top arrow */
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.floating-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: #444444;
+  color: #fff;
+  font-size: 26px;
+  box-shadow: 0 4px 16px rgba(68,68,68,0.15);
+  transition: background 0.2s, transform 0.2s;
+  text-decoration: none;
+}
+
+.floating-btn:hover {
+  background: #1977cc;
+  color: #fff;
+  transform: scale(1.08);
+}
+
+.floating-btn.whatsapp { background: #25d366; color: #fff; }
+.floating-btn.whatsapp:hover { background: #128c7e; }
+
+.floating-btn.email { background: #444444; color: #fff; }
+.floating-btn.email:hover { background: #1977cc; }
+
+.floating-btn.call { background: #444444; color: #fff; }
+.floating-btn.call:hover { background: #1977cc; }
