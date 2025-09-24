@@ -21,7 +21,7 @@
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #043fbe; /* Color for headings, subheadings and title throughout the website */
+  --heading-color: #2c4964; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #1977cc; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
@@ -29,7 +29,7 @@
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: #043fbe;  /* The default color of the main navmenu links */
+  --nav-color: #2c4964;  /* The default color of the main navmenu links */
   --nav-hover-color: #1977cc; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
@@ -331,7 +331,7 @@ h6 {
 }
 
 .scrolled .header {
-  box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0 18px rgba(68, 68, 68, 0.1);
 }
 
 .scrolled .header .topbar {
@@ -992,7 +992,7 @@ section,
   text-align: center;
   border-radius: 10px;
   background: color-mix(in srgb, var(--surface-color), transparent 20%);
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 15px rgba(68, 68, 68, 0.1); /* replaced black */
   padding: 40px 30px;
   width: 100%;
 }
@@ -1084,7 +1084,7 @@ section,
   width: 100%;
   position: relative;
   text-align: center;
-  box-shadow: 0px 2px 35px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 35px rgba(68, 68, 68, 0.1); /* replaced black */
   border-radius: 4px;
   z-index: 0;
 }
@@ -1307,7 +1307,7 @@ section,
 --------------------------------------------------------------*/
 .doctors .team-member {
   background-color: var(--surface-color);
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 15px rgba(68, 68, 68, 0.1); /* replaced black */
   position: relative;
   border-radius: 5px;
   transition: 0.5s;
@@ -1524,7 +1524,7 @@ section,
 }
 
 .testimonials .swiper {
-  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 15px 30px 0 rgba(68, 68, 68, 0.05); /* replaced black */
   background-color: var(--surface-color);
 }
 
